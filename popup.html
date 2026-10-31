@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>استخراج دیدگاه‌ها</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <div class="icon" aria-hidden="true">↓</div>
+        <div>
+          <h1>استخراج دیدگاه‌ها</h1>
+          <p>دیدگاه‌های صفحهٔ اپ را در CSV ذخیره کنید</p>
+        </div>
+      </div>
+
+      <label for="filename">نام فایل</label>
+      <div class="filename-wrap">
+        <input id="filename" type="text" autocomplete="off" spellcheck="false">
+        <span>.csv</span>
+      </div>
+
+      <button id="start" type="button">شروع استخراج</button>
+      <div id="status" class="status" role="status" aria-live="polite">برای شروع، صفحهٔ اپ موردنظر را در کافه‌بازار باز کنید.</div>
+      <div class="footnote">تا پایان بارگذاری صفحه را باز نگه دارید.</div>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

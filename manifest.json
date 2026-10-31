@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "استخراج دیدگاه‌های کافه‌بازار",
+  "version": "1.0.0",
+  "description": "ذخیره دیدگاه‌های صفحه اپ کافه‌بازار در فایل CSV",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "استخراج دیدگاه‌ها",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
